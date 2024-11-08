@@ -41,7 +41,7 @@ public class sussy {
                 System.out.println(multiply(a, b));
                 break;
             }
-            case "4":
+            case "4":   {
                 System.out.println("Welche Zahlen willst du dividieren? Bitte gib die erste ein");
                 Scanner scan = new Scanner(System.in);
                 int a;
@@ -52,6 +52,15 @@ public class sussy {
                 System.out.println("Dein Ergebnis beträgt:");
                 System.out.println(divide(a,b));
                 break;
+            }case "5":
+                System.out.println("Aus welcher Zahl willst du die Quadratwurzel ziehen?");
+                Scanner scan = new Scanner(System.in);
+                int a;
+                a = scan.nextInt();
+                System.out.println("Dein Ergebnis beträgt:");
+                System.out.println(sqrt(a));
+
+
 
 
 
@@ -79,6 +88,12 @@ public class sussy {
 
         double ergebnis;
         ergebnis = a*b;
+        return ergebnis;
+    }
+    public static double sqrt(double a){
+
+        double ergebnis;
+        ergebnis = Math.sqrt(a);
         return ergebnis;
     }
     public static double divide(double a, double b){
@@ -134,6 +149,7 @@ public class sussy {
         System.out.println("2: Subtrahieren");
         System.out.println("3: Multiplizieren");
         System.out.println("4: Dividieren");
+        System.out.println("5: Quadratwurzel ziehen");
         System.out.println("0: Exit");
         Scanner sc = new Scanner(System.in);
         String Aktion;
