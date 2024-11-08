@@ -15,6 +15,7 @@ public class sussy {
                 b = scan.nextInt();
                 System.out.println("Dein Ergebnis beträgt:");
                 System.out.println(add(a, b));
+                scan.close();
                 break;
             }
             case "2": {
@@ -27,6 +28,7 @@ public class sussy {
                 b = scan.nextInt();
                 System.out.println("Dein Ergebnis beträgt:");
                 System.out.println(subtract(a, b));
+                scan.close();
                 break;
             }
             case "3": {
@@ -39,6 +41,7 @@ public class sussy {
                 b = scan.nextInt();
                 System.out.println("Dein Ergebnis beträgt:");
                 System.out.println(multiply(a, b));
+                scan.close();
                 break;
             }
             case "4":   {
@@ -51,6 +54,7 @@ public class sussy {
                 b = scan.nextInt();
                 System.out.println("Dein Ergebnis beträgt:");
                 System.out.println(divide(a,b));
+                scan.close();
                 break;
             }case "5":
                 System.out.println("Aus welcher Zahl willst du die Quadratwurzel ziehen?");
@@ -59,7 +63,8 @@ public class sussy {
                 a = scan.nextInt();
                 System.out.println("Dein Ergebnis beträgt:");
                 System.out.println(sqrt(a));
-
+                scan.close();
+                break;
 
 
 
@@ -155,6 +160,7 @@ public class sussy {
         String Aktion;
         Aktion = sc.nextLine();
         ActionSelect(Aktion);
+        sc.close();
         exit(0);
 
 
