@@ -148,14 +148,7 @@ public class sussy {
     }
 
     public static void main(String[] args) {
-        System.out.println("Willkommen beim einzigen Sigma Skibidi rizz calceletor!!!");
-        System.out.println("Bitte gib deine gewünschte Aktion ein:");
-        System.out.println("1: Addieren");
-        System.out.println("2: Subtrahieren");
-        System.out.println("3: Multiplizieren");
-        System.out.println("4: Dividieren");
-        System.out.println("5: Quadratwurzel ziehen");
-        System.out.println("0: Exit");
+        System.out.println("Willkommen beim einzigen Sigma Skibidi rizz calceletor!!! \n" + "Bitte gib deine gewünschte Aktion ein \n" + "1: Addieren \n" + "2: Subtrahieren \n" + "3: Multiplizieren \n" + "4: Dividieren \n" + "5: Quadratwurzel ziehen \n" + "0: Exit");
         Scanner sc = new Scanner(System.in);
         String Aktion;
         Aktion = sc.nextLine();
